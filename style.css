@@ -40,14 +40,17 @@ body{
 
 .left-content {
     padding: 1rem;
+    color: aliceblue;
 }
 
 .profile-image {
     display: block;
     margin: auto;
-    border: 5px white solid;
-    border-radius: 30%;
+    justify-content: center;
+    border: 2px  solid white;
+    border-radius: 50%;
     width: 60%;
+    padding: 2px;
     
 }
 
@@ -90,11 +93,11 @@ body{
     font-size: 0.65rem;
     font-weight: 0.65rem;
     text-align: left;
-    padding-bottom: 0.5rem;
+    padding: 0.5rem;
 }
 
 .progress-bar {
-    border: 1px white solid;
+    border: 1px solid white;
     height: 4px;
     display: block;
     margin: 5px;
@@ -105,10 +108,7 @@ body{
 }
 
 .right-main-content {
-    padding-top: 2rem 32px;
-    padding-bottom: 2rem 32px;
-    padding-left: 3rem 48px;
-    padding-right: 3rem 48px;
+    padding: 2rem 3rem;
 }
 
 .right-title {
@@ -120,12 +120,10 @@ body{
 }
 
 .para {
-    margin-left: 0.4rem;
     letter-spacing: 1px;
-    padding: 0.5rem;
+    margin-left: 0.5rem;
     font-size: 1rem;
-    padding-bottom: 15px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 10px;
 }
 
 .row {
@@ -141,21 +139,20 @@ body{
 .grid {
     padding-left: 5px;
     padding-top: auto;
-    display: flex;
-    padding-right: 14px;
-    grid-column-gap: 35px;
+    display: flex;/* new against grid*/
     grid-template-columns: 450px 200px;
+    padding-bottom: 14px;
+    grid-column-gap: 35px;
 }
 
 .grid p {
     /* text-align: justify; */
-    font-size: 1rem;
-    padding: 0.2rem;
+    padding-top: 5px;
 }
 
 .personal-details {
-    margin-top: 1rem;
-    align-items: center;
+    letter-spacing: 0.04px;
+    padding: 8px;
 }
 
 @media only screen and (max-width: 673px) {
